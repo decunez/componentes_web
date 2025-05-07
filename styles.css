@@ -1,0 +1,35 @@
+nav {
+    background-color: #464746;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 15px;
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+H1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+img{
+    margin: auto;
+    display: block;
+}
