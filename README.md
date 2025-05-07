@@ -3,7 +3,7 @@ Parte 2: Analiza una página web existente
 Al inspeccionar el código HTML de un sitio web como Google, se pueden reconocer los siguientes elementos y estructura:
 
 1. Elementos HTML más comunes
-<div>: Contenedores genéricos para agrupar elementos.
+<div> : Contenedores genéricos para agrupar elementos.
 <header> (o <div> con clase "header"): Encabezado de la página.
 <main>: Contiene el contenido principal (en Google, el logo, la barra de búsqueda y los botones).
 <footer>: Pie de página con enlaces a políticas, ajustes, etc.
