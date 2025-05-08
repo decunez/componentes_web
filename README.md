@@ -31,18 +31,33 @@ script: Código JavaScript para funcionalidades dinámicas.
 
 
 2. Estructura de la Página
+
 La página suele estar organizada en bloques como:
+
 Encabezado (header o div class="header")
+
 Logo y menú de navegación (como "Gmail", "Imágenes").
+
 Botones de inicio de sesión o configuración.
+
 Contenido Principal (main o div class="main")
+
 Logo central.
+
 Barra de búsqueda (input).
+
 Botones de acción (button).
+
 Pie de Página (footer o div class="footer")
+
 Enlaces legales ("Privacidad", "Términos").
+
 Configuración regional o de idioma.
+
 Observaciones adicionales
+
 Muchos sitios modernos usan div con clases en lugar de etiquetas semánticas como header, main o footer.
+
 El uso de JavaScript (script) es muy común para funcionalidades interactivas.
+
 Las imágenes pueden estar en formato SVG (vectores) para mejor rendimiento.
