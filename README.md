@@ -1,4 +1,5 @@
-Parte 2: Analiza una página web existente
+
+<p>Parte 2: Analiza una página web existente
 Página analizada: Ejemplo: Wikipedia (www.wikipedia.org)
 1. Elementos HTML reconocidos
 •	<header>: Contiene el logo y la barra de búsqueda.
@@ -64,4 +65,4 @@ ________________________________________
 🔹 Organización de la información:
 •	Flujo continuo (feed) con elementos interactivos.
 o	Tres columnas: navegación (izq), contenido central (tweets), y widgets (derecha).
-o	Énfasis en interacción (likes, retweets) mediante botones con eventos JS.
+o	Énfasis en interacción (likes, retweets) mediante botones con eventos JS.</p>
