@@ -1,4 +1,7 @@
-Parte 2: Analiza una página web existente
+Parte 2:
+
+Analiza una página web existente
+
 
 Al inspeccionar el código HTML de un sitio web como Google, se pueden reconocer los siguientes elementos y estructura:
 
@@ -25,6 +28,7 @@ span: Elementos en línea para estilizar texto o iconos.
 nav: Barra de navegación (a veces implementada con div).
 
 script: Código JavaScript para funcionalidades dinámicas.
+
 
 2. Estructura de la Página
 La página suele estar organizada en bloques como:
