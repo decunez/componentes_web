@@ -4,21 +4,27 @@ Al inspeccionar el código HTML de un sitio web como Google, se pueden reconocer
 
 1. Elementos HTML más comunes
 
-div :Contenedores genéricos para agrupar elementos.
+div: Contenedores genéricos para agrupar elementos.
 
-header:(o div con clase "header"): Encabezado de la página.
+header: (o div con clase "header"): Encabezado de la página.
 
-main:Contiene el contenido principal (en Google, el logo, la barra de búsqueda y los botones).
+main: Contiene el contenido principal (en Google, el logo, la barra de búsqueda y los botones).
 
-footer:Pie de página con enlaces a políticas, ajustes, etc.
+footer: Pie de página con enlaces a políticas, ajustes, etc.
 
-a:Enlaces a otras páginas (como "Gmail", "Imágenes", etc.).
-input:Campo de búsqueda.
-button:Botones como "Buscar con Google" o "Voy a tener suerte".
-img:Logotipos e iconos.
-span:Elementos en línea para estilizar texto o iconos.
-nav:Barra de navegación (a veces implementada con div).
-script:Código JavaScript para funcionalidades dinámicas.
+a: Enlaces a otras páginas (como "Gmail", "Imágenes", etc.).
+
+input: Campo de búsqueda.
+
+button: Botones como "Buscar con Google" o "Voy a tener suerte".
+
+img: Logotipos e iconos.
+
+span: Elementos en línea para estilizar texto o iconos.
+
+nav: Barra de navegación (a veces implementada con div).
+
+script: Código JavaScript para funcionalidades dinámicas.
 
 2. Estructura de la Página
 La página suele estar organizada en bloques como:
