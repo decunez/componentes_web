@@ -1,63 +1,67 @@
-Parte 2:
-
-Analiza una página web existente
-
-
-Al inspeccionar el código HTML de un sitio web como Google, se pueden reconocer los siguientes elementos y estructura:
-
-1. Elementos HTML más comunes
-
-div: Contenedores genéricos para agrupar elementos.
-
-header: (o div con clase "header"): Encabezado de la página.
-
-main: Contiene el contenido principal (en Google, el logo, la barra de búsqueda y los botones).
-
-footer: Pie de página con enlaces a políticas, ajustes, etc.
-
-a: Enlaces a otras páginas (como "Gmail", "Imágenes", etc.).
-
-input: Campo de búsqueda.
-
-button: Botones como "Buscar con Google" o "Voy a tener suerte".
-
-img: Logotipos e iconos.
-
-span: Elementos en línea para estilizar texto o iconos.
-
-nav: Barra de navegación (a veces implementada con div).
-
-script: Código JavaScript para funcionalidades dinámicas.
-
-
-2. Estructura de la Página
-
-La página suele estar organizada en bloques como:
-
-Encabezado (header o div class="header")
-
-Logo y menú de navegación (como "Gmail", "Imágenes").
-
-Botones de inicio de sesión o configuración.
-
-Contenido Principal (main o div class="main")
-
-Logo central.
-
-Barra de búsqueda (input).
-
-Botones de acción (button).
-
-Pie de Página (footer o div class="footer")
-
-Enlaces legales ("Privacidad", "Términos").
-
-Configuración regional o de idioma.
-
+Parte 2: Analiza una página web existente
+Página analizada: Ejemplo: Wikipedia (www.wikipedia.org)
+1. Elementos HTML reconocidos
+•	<header>: Contiene el logo y la barra de búsqueda.
+•	<nav>: Menú superior con enlaces como "Portada", "Artículos", "Discusión".
+•	<main>: Contiene el contenido principal (artículos o destacados del día).
+•	<div>: Usado ampliamente para agrupar secciones (ej: contenedores de texto, imágenes).
+•	<img>: Para mostrar imágenes (como el logo o ilustraciones en artículos).
+•	<footer>: Pie de página con enlaces a políticas, información legal, etc.
+•	<a>: Enlaces a otras páginas o secciones.
+•	<ul>/<li>: Listas (ej: menús desplegables o enlaces en el footer).
+•	<span>: Para estilizar fragmentos de texto (ej: palabras resaltadas).
+2. Estructura de la página
+1.	Encabezado (<header> + <nav>):
+o	Logo y barra de búsqueda centrada.
+o	Menú horizontal con categorías principales.
+2.	Contenido principal (<main> + <div>):
+o	Sección destacada con un artículo o imagen prominente.
+o	Columnas o tarjetas con enlaces a contenidos secundarios.
+3.	Barra lateral (opcional):
+o	En algunos sitios, hay un <aside> con menús adicionales (ej: "Otros proyectos").
+4.	Pie de página (<footer>):
+o	Enlaces legales, redes sociales y copyright.
+________________________________________
 Observaciones adicionales
-
-Muchos sitios modernos usan div con clases en lugar de etiquetas semánticas como header, main o footer.
-
-El uso de JavaScript (script) es muy común para funcionalidades interactivas.
-
-Las imágenes pueden estar en formato SVG (vectores) para mejor rendimiento.
+•	Uso de clases y IDs: Las etiquetas suelen tener atributos como class="nombre-clase" para aplicar estilos CSS.
+•	Jerarquía: El HTML está anidado (ej: <div> dentro de <section> dentro de <main>).
+•	Responsive: Elementos como <meta name="viewport"> indican que la página está diseñada para móviles.
+Parte 3: Investigación
+1. YouTube
+🔹 Elementos HTML reconocibles:
+•	<header>: Barra superior con logo, barra de búsqueda e iconos de usuario.
+•	<nav>: Menú lateral con categorías (Inicio, Explorar, Suscripciones, etc.).
+•	<main>: Contenedor principal con vídeos recomendados.
+•	<section> o <article>: Cada vídeo mostrado como una tarjeta.
+•	<iframe>: Para incrustar los vídeos.
+•	<footer>: Enlaces a políticas, configuración y copyright.
+🔹 Organización de la información:
+•	Jerárquica y centrada en contenido multimedia.
+o	Barra lateral fija para navegación.
+o	Contenido principal en cuadrícula de vídeos (responsive con CSS Grid/Flexbox).
+o	Barra superior para búsqueda y acciones del usuario.
+________________________________________
+2. Wikipedia
+🔹 Elementos HTML reconocibles:
+•	<header>: Logo y barra de búsqueda.
+•	<nav>: Menú lateral con herramientas y enlaces a portales.
+•	<main>: Artículo principal con <h1>, <p>, <ul>, y <table>.
+•	<aside>: Sección "En otros idiomas" o "Artículos relacionados".
+•	<footer>: Información legal y enlaces a proyectos hermanos.
+🔹 Organización de la información:
+•	Estructura lineal y textual, enfocada en lectura.
+o	Menú lateral con accesos rápidos.
+o	Artículo organizado en secciones (<h2>, <h3>).
+o	Enlaces internos (hipertexto) para navegación contextual.
+________________________________________
+3. Twitter (X)
+🔹 Elementos HTML reconocibles:
+•	<header>: Logo y botones de navegación (Inicio, Explorar, Notificaciones).
+•	<main>: Timeline central con tweets (usando <article> para cada uno).
+•	<aside>: Barra lateral con tendencias y sugerencias.
+•	<form>: Para publicar nuevos tweets (textarea + botón).
+•	<footer>: Enlaces a términos y políticas.
+🔹 Organización de la información:
+•	Flujo continuo (feed) con elementos interactivos.
+o	Tres columnas: navegación (izq), contenido central (tweets), y widgets (derecha).
+o	Énfasis en interacción (likes, retweets) mediante botones con eventos JS.
