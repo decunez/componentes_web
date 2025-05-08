@@ -12,7 +12,7 @@ input: Campo de búsqueda.
 button: Botones como "Buscar con Google" o "Voy a tener suerte".
 img: Logotipos e iconos.
 span: Elementos en línea para estilizar texto o iconos.
-nav: Barra de navegación (a veces implementada con <div>).
+nav: Barra de navegación (a veces implementada con div).
 script: Código JavaScript para funcionalidades dinámicas.
 
 2. Estructura de la Página
